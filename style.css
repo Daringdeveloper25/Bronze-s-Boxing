@@ -1,0 +1,102 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+  background-color: rgb(177, 89, 89);
+}
+header {
+  background-color: rgb(240, 153, 153);
+}
+footer {
+  background-color: rgb(240, 153, 153);
+  padding: 30px 0;
+}
+.line {
+  width: 100%;
+  height: 5px;
+  background-color: black;
+  border: none;
+  margin: 0;
+}
+.tabs {
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+}
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+.tab-button {
+  background-image: url("images/Boxing Glove Button V2.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+  border: none;
+  background-color: transparent;
+
+  width: 150px;
+  height: 100px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0;
+
+  cursor: pointer;
+  font-family: "DIN Condensed", sans-serif;
+  font-size: 22px;
+  transition: background-image 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+.tab-button.active {
+  background-image: url("images/Boxing Glove Button V2 Selected.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+  border: none;
+  background-color: transparent;
+
+  width: 150px;
+  height: 100px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0;
+
+
+  cursor: pointer;
+  font-family: "DIN Condensed", sans-serif;
+  font-size: 22px;
+}
+.logoImage {
+  display: block;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+}
+.baseText {
+  font-family: "DIN Condensed";
+  font-size: 35px;
+  text-align: center;
+}
+.headingText {
+  font-family: "DIN Condensed";
+  font-size: 60px;
+  text-align: center;
+}
+.gymImage {
+  display: block;
+  margin-left: auto;        /* Auto margins center horizontally */
+  margin-right: auto;
+}
+@font-face {
+    font-family: "DIN Condensed";
+    src: url("./fonts/DIN-Condensed-Bold.ttf") format("truetype");
+}
